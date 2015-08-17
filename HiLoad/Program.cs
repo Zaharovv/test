@@ -8,10 +8,15 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
 
+using NUnit.Framework;
+
 namespace HiLoad
 {
+    [TestFixture]
     class Program
     {
+
+        [Test]
         static void Main(string[] args)
         {
             DateTime start = DateTime.Now;
